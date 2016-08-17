@@ -1,0 +1,151 @@
+/*
+ * Start Bootstrap - Landing Page (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+  body {
+        padding-top: 60px; 
+  
+      }
+
+  
+      .container-narrow {
+        margin: 0 auto;
+        max-width: 900px;
+  border-style: solid;
+  border-color: transparent;
+  background-color: #D8D8D8 ;
+  z-index: 9;
+  height : 100%;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  
+      }
+      .container-narrow > hr {
+        margin: 30px 0;
+      }
+
+  .sidebar-nav {
+        padding: 20px 0;
+      }
+
+      @media (max-width: 980px) {
+
+        .navbar-text.pull-right {
+          float: none;
+          padding-left: 5px;
+          padding-right: 5px;
+          margin-top: 5px;
+        }
+      }
+  
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+servicos {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.watsonheader {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url(../static/images/ibmwatson.jpg) no-repeat center center;
+    background-size: cover;
+}
+.watsonheader h1{
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 4em;
+}
+.customFont
+{
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+	font-size: 20px;
+}
+
+
+.banner {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url(../static/images/bannerbg.jpg) no-repeat center center;
+    background-size: cover;
+    
+}
+
+.banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+
+}
+
+.banner ul {
+    margin-bottom: 0;
+
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+
+}
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        float: left;
+        margin-top: 15px;
+
+    }
+}
+
+@media(max-width:767px) {
+
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+
+    }
+}
+
+footer {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.copyright {
+    margin: 15px 0 0;
+}
